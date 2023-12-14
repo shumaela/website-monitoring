@@ -1,0 +1,27 @@
+{
+  "name": "website-monitoring",
+  "version": "1.0.0",
+  "description": "Website Monitoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shumaela/website-monitoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shumaela/website-monitoring/issues"
+  },
+  "homepage": "https://github.com/shumaela/website-monitoring#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
